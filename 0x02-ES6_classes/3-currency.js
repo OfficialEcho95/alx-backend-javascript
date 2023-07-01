@@ -1,7 +1,4 @@
-export default class Currency  {
-  _code = "";
-  _name = "";
-
+export default class Currency {
   constructor(code, name) {
     this._code = code;
     this._name = name;
@@ -15,7 +12,7 @@ export default class Currency  {
     return this._code;
   }
 
-  set name(name){
+  set name(name) {
     this._name = name;
   }
 
