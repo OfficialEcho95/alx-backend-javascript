@@ -7,7 +7,4 @@ export function queryAPI(endpoint) {
   if (count >= 4) {
     throw new Error('Endpoint load is high');
   }
-
-  // Perform the API query
-  // ...
 }
