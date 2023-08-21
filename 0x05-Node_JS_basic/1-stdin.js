@@ -28,3 +28,5 @@ if (process.stdin.isTTY) {
     process.exit(0);
   });
 }
+
+module.exports = displayMessage;
