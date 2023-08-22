@@ -31,6 +31,3 @@ function countStudents(filePath) {
 }
 
 module.exports = countStudents;
-
-const databasePath = 'database.csv';
-countStudents(databasePath);
